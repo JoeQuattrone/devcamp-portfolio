@@ -45,7 +45,7 @@ class PortfoliosController < ApplicationController
 
     @portfolio_item.destroy
     respond_to do |format|
-      format.html { redirect_to portfolios_path, notice: 'Blog was successfully destroyed.' }
+      format.html { redirect_to portfolios_path, notice: 'Record was removed.' }
     end
   end
 
