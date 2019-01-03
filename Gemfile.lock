@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/JoeQuattrone/quattrone_view_tool
+  revision: a456e91d675de8bbf8f3aa22c7196446398ed8f0
+  specs:
+    quattrone_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -222,6 +228,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 3.11)
+  quattrone_view_tool!
   rails (~> 5.2.1)
   sass-rails (~> 5.0)
   spring
