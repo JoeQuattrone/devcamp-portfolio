@@ -171,9 +171,11 @@ body {
  */
 
  .card-block {
+   margin: 1em;
    color: black;
+   text-align: left;
  }
 
-.form-group {
-  margin-left: 1em;
+.auth-links a {
+  color: black;
 }
