@@ -28,36 +28,39 @@ body {
   border: solid .7px rgb(73, 78, 83);
   display: inline-block;
   vertical-align:middle;
+  padding: 0px, 2px;
 }
 
 .navbar-toggler .collapsed {
-  height: 60px;
-  width: 100px;
+  height: 50px;
+  width: 70px;
   display: inline-block;
   vertical-align:middle;
 }
 
 .navbar-toggler-icon {
+  display: block;
+  padding: 0px;
   width: 30px;
   height: 2.5px;
   background-color: rgb(154, 157, 159);
   border-radius: 1px;
+  margin-bottom: 5.5px;
+  margin-left: 7px;
+
+
 
 }
 
+#hamburger {
+  padding-bottom: 0;
+  padding-top: 0;
+}
 #last {
-  position: relative;
-  top: -20px;
-}
-
-#middle {
-  position: relative;
-  top: -11.5px
 }
 
 #first {
-  position: relative;
-  top: -4px
+  margin-top: 3.5px;
 }
 
 .navbar-brand {
@@ -68,11 +71,6 @@ body {
 .fa-bars {
   color: white;
 }
-
-#hamburger:visited {
-
-}
-
 
 .jumbotron {
   padding-top: 6rem;
@@ -87,6 +85,7 @@ body {
 
 .jumbotron-heading {
   font-weight: 300;
+  font-size: 3.5em;
 }
 
 .jumbotron .container {
@@ -149,4 +148,35 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+/*
+Custom Styles
+*/
+
+.text-muted {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+a {
+  font-size: 20px;
+}
+
+.jumbotron-heading {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.port-button {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+hr {
+border: solid 1px #ddd;
 }
