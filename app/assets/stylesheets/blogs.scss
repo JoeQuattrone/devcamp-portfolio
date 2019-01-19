@@ -196,7 +196,8 @@ h4 {
   font-family: "Helvetica Nue", "Helvetica", sans-serif;
   font-size: 19px;
   color: #999;
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 12px;
 }
 
 .nav-link:link {
@@ -220,6 +221,8 @@ p .blog-post-meta {
 }
 
 #name {
+  display: block;
+  line-height:22px;
   font-size: 28px;
   font-weight: 400;
   font-family: "Lato", sans-serif;
