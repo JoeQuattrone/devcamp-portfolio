@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import 'font-awesome';
+@import 'jquery-ui';
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
@@ -171,10 +172,23 @@ a {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-
-.port-button {
+#primary-port-btn {
+  background: rgb(2, 117, 86);
+  background-image: none;
+  border: solid 1px rgb(2, 117, 86);
+}
+.port-btn {
   font-size: 18px;
   font-weight: 300;
+}
+
+#primary-port-btn:not(:disabled):not(.disabled):active:focus, #primary-port-btn:not(:disabled):not(.disabled).active:focus,
+.show > #primary-port-btn.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(2, 117, 86, 0.5);
+}
+
+#primary-port-btn:focus, #primary-port-btn.focus {
+  box-shadow: 0 0 0 0.2rem rgba(2, 117, 86, 0.5);
 }
 
 hr {
