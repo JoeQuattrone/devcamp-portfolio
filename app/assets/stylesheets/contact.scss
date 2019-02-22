@@ -1,4 +1,23 @@
 .contact-header {
   margin-bottom: 7%;
-  margin-top: 16%;
+  margin-top: 8%;
+}
+
+body > div > div > div > div.mastfoot {
+  position: relative;
+}
+
+
+body > div.masthead.clearfix {
+  position: relative;
+}
+
+body > div > div.site-wrapper-inner > div.cover-container > div.row#contact-row {
+  margin-bottom: 50px;
+}
+
+body > div > div.site-wrapper-inner > div.mastfoot {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
 }

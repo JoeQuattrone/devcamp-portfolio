@@ -15,21 +15,15 @@
   </head>
 
   <body>
+
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
+        <%= render "shared/application_nav" %>
         <div class="cover-container">
-
-          <%= render "shared/application_nav" %>
-
           <%= yield %>
-
-          <div class="clearfix"></div>
-
-          <%= render "shared/application_footer" %>
-
-          <%= source_helper("application") %>
-
         </div>
+        <%= render "shared/application_footer" %>
+        <%= source_helper("application") %>
       </div>
     </div>
   </body>
