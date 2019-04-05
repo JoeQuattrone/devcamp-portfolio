@@ -15,16 +15,8 @@
   </head>
 
   <body>
-
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <%= render "shared/application_nav" %>
-        <div class="cover-container">
-          <%= yield %>
-        </div>
-        <%= render "shared/application_footer" %>
-        <%= source_helper("application") %>
-      </div>
-    </div>
+      <%= yield %>
+       <%= render "shared/application_footer" %>
+      <%= source_helper("application") %>
   </body>
 </html>

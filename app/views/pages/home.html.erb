@@ -1,7 +1,35 @@
-<div class="inner cover">
-  <h1 class="cover-heading">Welcome.</h1>
-  <p class="lead"> Software development should not be a secret process, when I take on a new project I make it my goal to not only deliver a well crafted product but to also ensure that each stage of the process is fully communicated.
-  <p class="lead">
-    <%= link_to "Portfolio", portfolios_path, id: "home-btn", class: "btn btn-lg btn-primary" %>
-  </p>
-</div>
+<header class="header" id="main-header">
+  <div class="container">
+  	<div class="row" id="main-nav">
+  		<div class="col">
+  			<div class="header_content d-flex flex-row align-items-center justify-content-start">
+  				<div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
+  					<div class="logo"><%= link_to "Joe Quattrone", root_path, class: "masthead-brand", id: "masthead-name" %></div>
+  					<nav class="main_nav">
+  						<ul class="d-flex flex-row align-items-start justify-content-start">
+  							<%= nav_helper('nav-link', 'span') %>
+  							<%= login_helper("nav-link") %>
+  						</ul>
+  					</nav>
+
+            <!-- Hamburger -->
+						<div class="hamburger ml-auto">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+						</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="content-container">
+    <div class="inner-wrapper">
+      <h1 class="cover-heading">Welcome.</h1>
+      <p class="lead"> Software development should not be a secret process, when I take on a new project I make it my goal to not only deliver a well crafted product but to also ensure that each stage of the process is fully communicated.
+      <p class="lead">
+        <%= link_to "Portfolio", portfolios_path, id: "home-btn", class: "btn btn-lg btn-primary" %>
+      </p>
+    </div>
+  </div>
